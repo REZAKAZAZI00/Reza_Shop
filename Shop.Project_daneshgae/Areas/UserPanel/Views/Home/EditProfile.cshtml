@@ -1,0 +1,93 @@
+﻿@model Shop.Core.DTOs.EditProfileUserPanelViewModel
+
+@{
+    ViewData["Title"] = "ویراییش  پروفایل ";
+}
+
+@section menu{
+            <section class="hero hero-normal">
+}
+
+<main>
+    <div class="container">
+        <div class="user-account">
+            <div class="row">
+                <partial name="_SlideBar" />
+                <div class="col-md-9 col-sm-8 col-xs-12">
+                    <section class="user-account-content">
+                        <header><h1> ویرایش حساب کاربری </h1></header>
+                        <div class="inner form-layer">
+                            <form asp-action="EditProfile" method="post" enctype="multipart/form-data">
+                              @if (ViewBag.IsSuccess != null)
+                              {
+                                  <div class="alert alert-success">
+                                      اطلاعات کاربری شما با موفقیت ویرایش شد
+                                  </div>
+                              }
+
+                                <input type="hidden" asp-for="AvatarName"/>
+                                <div class="row">
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <div class="input-group">
+                                            <input type="hidden" class="form-control" asp-for=UserName placeholder="ایمیل" aria-describedby="email-address">
+                                            <span class="input-group-addon" id="username"><i class="zmdi zmdi-account"></i></span>
+                                            <p type="text" class="form-control" placeholder="نام کاربری" aria-describedby="username">@Model.UserName</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="email-address"><i class="zmdi zmdi-email"></i></span>
+                                            <input type="text" class="form-control" asp-for="Email" placeholder="ایمیل" aria-describedby="email-address">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="email-address"><i class="zmdi zmdi-email"></i></span>
+                                            <input class="form-control" placeholder=" ملی کد  " aria-describedby="email-address"  asp-for=CodeMelli>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="email-address"><i class="zmdi zmdi-email"></i></span>
+                                            <input class="form-control" placeholder=" نام " aria-describedby="email-address"  asp-for=Name>
+                                        </div>
+                                    </div>
+                                      <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="email-address"><i class="zmdi zmdi-email"></i></span>
+                                            <input class="form-control" placeholder="  خانوادگی نام " aria-describedby="email-address"  asp-for=Lname>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="email-address"><i class="zmdi zmdi-email"></i></span>
+                                            <input class="form-control" placeholder=" کدپستی " aria-describedby="email-address"  asp-for=PostalCode>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="email-address"><i class="zmdi zmdi-email"></i></span>
+                                            <input type="text" class="form-control" asp-for=PhoneNamber placeholder="شماره همراع" aria-describedby="email-address">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <p class="help-block">
+                                            آواتار
+                                        </p>
+                                        <input type="file"src="/UserAvatar/@Model.AvatarName" asp-for="UserAvatar" id="image" accept=".jpg, .jpeg, .png" class="form-control"/>
+                                        <p>لطفا فقط تصویر انتخاب کنید</p>
+                                        <img class="thumbnail" src="/UserAvatar/@Model.AvatarName" style="max-width:150px"/>
+                                    </div>
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <button class="btn btn-success"> ویرایش اطلاعات </button>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

@@ -1,0 +1,14 @@
+F:\دانشگاه\پروژه\پروژه اصلی\Shop.DataLayer\bin\Debug\net6.0\Shop.DataLayer.deps.json
+F:\دانشگاه\پروژه\پروژه اصلی\Shop.DataLayer\bin\Debug\net6.0\Shop.DataLayer.runtimeconfig.json
+F:\دانشگاه\پروژه\پروژه اصلی\Shop.DataLayer\bin\Debug\net6.0\Shop.DataLayer.dll
+F:\دانشگاه\پروژه\پروژه اصلی\Shop.DataLayer\bin\Debug\net6.0\ref\Shop.DataLayer.dll
+F:\دانشگاه\پروژه\پروژه اصلی\Shop.DataLayer\bin\Debug\net6.0\Shop.DataLayer.pdb
+F:\دانشگاه\پروژه\پروژه اصلی\Shop.DataLayer\obj\Debug\net6.0\Shop.DataLayer.csproj.AssemblyReference.cache
+F:\دانشگاه\پروژه\پروژه اصلی\Shop.DataLayer\obj\Debug\net6.0\Shop.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\دانشگاه\پروژه\پروژه اصلی\Shop.DataLayer\obj\Debug\net6.0\Shop.DataLayer.AssemblyInfoInputs.cache
+F:\دانشگاه\پروژه\پروژه اصلی\Shop.DataLayer\obj\Debug\net6.0\Shop.DataLayer.AssemblyInfo.cs
+F:\دانشگاه\پروژه\پروژه اصلی\Shop.DataLayer\obj\Debug\net6.0\Shop.DataLayer.csproj.CoreCompileInputs.cache
+F:\دانشگاه\پروژه\پروژه اصلی\Shop.DataLayer\obj\Debug\net6.0\Shop.DataLayer.dll
+F:\دانشگاه\پروژه\پروژه اصلی\Shop.DataLayer\obj\Debug\net6.0\ref\Shop.DataLayer.dll
+F:\دانشگاه\پروژه\پروژه اصلی\Shop.DataLayer\obj\Debug\net6.0\Shop.DataLayer.pdb
+F:\دانشگاه\پروژه\پروژه اصلی\Shop.DataLayer\obj\Debug\net6.0\Shop.DataLayer.genruntimeconfig.cache

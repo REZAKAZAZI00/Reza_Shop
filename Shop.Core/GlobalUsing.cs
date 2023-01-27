@@ -1,0 +1,27 @@
+﻿global using Shop.Core.Services.InterFace;
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+global using Shop.DataLayer.Context;
+global using Shop.DataLayer.Enttities.User;
+global using Shop.Core.DTOs;
+global using Shop.Core.Generator;
+global using Shop.Core.Security;
+global using Shop.Core.Convertors;
+global using System.Security.Cryptography;
+global using System.Net.Mail;
+global using Microsoft.AspNetCore.Mvc;
+global using System.ComponentModel.DataAnnotations;
+global using Microsoft.AspNetCore.Http;
+global using System.Globalization;
+global using Shop.Core.Sender;
+global using Shop.DataLayer.Enttities.Wallet;
+global using Shop.DataLayer.Enttities.Permissions;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Mvc.Filters;
+global using Shop.DataLayer.Enttities.Products;
+global using Shop.Core.DTOs.Products;
+global using Microsoft.AspNetCore.Mvc.Rendering;
+

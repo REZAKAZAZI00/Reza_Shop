@@ -1,0 +1,33 @@
+﻿@model IEnumerable<ProductGroup>
+@{
+
+Layout=null;
+}
+<div class="hero__categories">
+    <div class="hero__categories__all">
+        <i class="fa fa-bars"></i>
+        <span>دسته بندی محصولات</span>
+    </div>
+    <ul>
+        @foreach (var group in Model.Where(g=>g.ParentId==null))
+        {
+             <li>
+                 <a href="#">@group.GroupTitle</a>
+                @if(Model.Any(g=>g.ParentId==group.GroupId))
+                {
+                    <ul > 
+                        @foreach (var sub in Model.Where(g=>g.ParentId==group.GroupId))
+                        {
+                            <li>
+                               <a href="#">@sub.GroupTitle</a>
+                            </li>
+                        }
+
+                    </ul>
+                }
+            </li>
+        }
+       
+        
+    </ul>
+</div>

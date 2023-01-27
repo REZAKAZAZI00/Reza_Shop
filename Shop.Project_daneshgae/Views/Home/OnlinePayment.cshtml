@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "نتیجه پرداخت";
+}
+
+@section menu{
+            <section class="hero hero-normal">
+}
+
+<div class="container">
+    @if (ViewBag.IsSuccess == true)
+    {
+        <div class="alert alert-success">
+            <h2>پرداخت با موفقیت انجام شد</h2>
+            <p> کد پیگیری : @ViewBag.Code</p>
+           <a href="/Wallet">بازگشت به کیف پول</a>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger">
+            <h2>پرداخت با شکست مواجه شد</h2>
+           <a href="/Wallet">بازگشت به کیف پول</a>
+        </div>
+    }
+</div>

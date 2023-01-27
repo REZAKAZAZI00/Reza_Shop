@@ -1,0 +1,10 @@
+﻿global using System.ComponentModel.DataAnnotations.Schema;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.ComponentModel.DataAnnotations;
+global using System.Threading.Tasks;
+global using Shop.DataLayer.Enttities.User;
+global using Shop.DataLayer.Enttities.Wallet;
+global using Microsoft.EntityFrameworkCore;
+global using Shop.DataLayer.Enttities.Permissions;
+global using Shop.DataLayer.Enttities.Products;

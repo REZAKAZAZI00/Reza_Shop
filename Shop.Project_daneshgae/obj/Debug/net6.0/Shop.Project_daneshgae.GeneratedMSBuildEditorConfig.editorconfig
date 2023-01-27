@@ -1,0 +1,200 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Shop.Project_daneshgae
+build_property.RootNamespace = Shop.Project_daneshgae
+build_property.ProjectDir = F:\دانشگاه\پروژه\پروژه اصلی\Shop.Project_daneshgae\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\دانشگاه\پروژه\پروژه اصلی\Shop.Project_daneshgae
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Areas/UserPanel/Views/Home/ChangePassWord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXEhvbWVcQ2hhbmdlUGFzc1dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Areas/UserPanel/Views/Home/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXEhvbWVcRWRpdFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Areas/UserPanel/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Areas/UserPanel/Views/Shared/_SlideBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNoYXJlZFxfU2xpZGVCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Areas/UserPanel/Views/Wallet/Wallet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFdhbGxldFxXYWxsZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Areas/UserPanel/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Areas/UserPanel/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/ProductGroup/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdEdyb3VwXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/Product/CreateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdFxDcmVhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/Product/DeleteProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdFxEZWxldGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/Product/EditProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdFxFZGl0UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/Roles/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUm9sZXNcQ3JlYXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/Roles/DeleteRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUm9sZXNcRGVsZXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/Roles/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUm9sZXNcRWRpdFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/Users/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnNcQ3JlYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/Users/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnNcRGVsZXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/Users/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnNcRWRpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Admin/Users/ListDeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnNcTGlzdERlbGV0ZVVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Account/ActiveAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY3RpdmVBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Account/ForgetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3JnZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Account/SuccssesRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTdWNjc3Nlc1JlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Home/Content.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250ZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Home/OnlinePayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPbmxpbmVQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Shared/Components/ProductGroupComponent/ProductGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdEdyb3VwQ29tcG9uZW50XFByb2R1Y3RHcm91cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Shared/_ActiveEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BY3RpdmVFbWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Shared/_CssTags.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Dc3NUYWdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Shared/_ForgotPassWord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb3Jnb3RQYXNzV29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Shared/_mataTags.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9tYXRhVGFncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Shared/_menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9tZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Pages/Shared/_Layout_sttings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXRfc3R0aW5ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-bmj3t63h5g
+
+[F:/دانشگاه/پروژه/پروژه اصلی/Shop.Project_daneshgae/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ki979uo2hf

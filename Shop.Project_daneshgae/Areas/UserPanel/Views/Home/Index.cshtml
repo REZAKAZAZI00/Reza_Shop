@@ -1,0 +1,38 @@
+﻿@using Shop.Core.Convertors
+@model Shop.Core.DTOs.InformationUserViewModel
+@{
+    ViewData["Title"] = "پنل کاربری "+User.Identity.Name;
+}
+
+@section menu{
+            <section class="hero hero-normal">
+}
+
+<main>
+    <div class="container">
+        <div class="user-account">
+            <div class="row">
+ <partial name="_SlideBar"/>
+                <div class="col-md-9 col-sm-8 col-xs-12">
+                    <section class="user-account-content">
+                        <header><h1> داشبورد </h1></header>
+                        <div class="inner">
+                            <div class="account-information">
+                                <h3> اطلاعات کاربری </h3>
+                                <ul>
+                                    <li> <i class="zmdi fa fa-user"></i> نام کاربری :  @Model.UserName </li>
+                                    <li> <i class="fa fa-envelope "></i> ایمیل : @Model.Email </li>
+                                    <li> <i class="zmdi fa fa-calendar-lines-pen"></i> تاریخ عضویت : @Model.CreateDate.ToShamsi() </li>
+                                    <li> <i class="fa fa-Email "></i> کدملی : @Model.CodeMelli </li>
+                                    <li> <i class="zmdi fa-Phone"></i>شماره تلفن : @Model.Phone </li>
+                                    <li> <i class="zmdi fa-Phone"></i>  موجودی: @Model.Wallet.ToString("#,0 ریال") </li>
+                                       
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

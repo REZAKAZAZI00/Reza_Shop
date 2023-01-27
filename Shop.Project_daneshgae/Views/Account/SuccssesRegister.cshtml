@@ -1,0 +1,16 @@
+﻿@model Shop.DataLayer.Enttities.User.User
+
+@{
+    ViewData["Title"] = "ثبت  نام انجام شد";
+}
+@section menu{
+            <section class="hero hero-normal">
+
+    }
+  
+<div class="alert text-center alert-success">
+    <h2>@Model.UserName عزیز !</h2>
+    <h6>ثبت نام شما انجام شد</h6>
+    <p> ایمیلی حاوی لینک فعالسازی به ایمیل '@Model.Email' ارسال شد .</p>
+    <p>جهت ادامه ثبت نام وارد ایمیل خود شوید و روی لینک کلیک کنید .</p>
+</div>

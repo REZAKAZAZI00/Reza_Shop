@@ -1,0 +1,265 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.Project_daneshgae\\Shop.Project_daneshgae.csproj": {}
+  },
+  "projects": {
+    "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.Core\\Shop.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.Core\\Shop.Core.csproj",
+        "projectName": "Shop.Core",
+        "projectPath": "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.Core\\Shop.Core.csproj",
+        "packagesPath": "C:\\Users\\reza\\.nuget\\packages\\",
+        "outputPath": "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.DataLayer\\Shop.DataLayer.csproj": {
+                "projectPath": "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.DataLayer\\Shop.DataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CoreCompat.System.Drawing.v2": {
+              "target": "Package",
+              "version": "[5.2.0-preview1-r131, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.DataLayer\\Shop.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.DataLayer\\Shop.DataLayer.csproj",
+        "projectName": "Shop.DataLayer",
+        "projectPath": "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.DataLayer\\Shop.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\reza\\.nuget\\packages\\",
+        "outputPath": "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.Project_daneshgae\\Shop.Project_daneshgae.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.Project_daneshgae\\Shop.Project_daneshgae.csproj",
+        "projectName": "Shop.Project_daneshgae",
+        "projectPath": "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.Project_daneshgae\\Shop.Project_daneshgae.csproj",
+        "packagesPath": "C:\\Users\\reza\\.nuget\\packages\\",
+        "outputPath": "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.Project_daneshgae\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.Core\\Shop.Core.csproj": {
+                "projectPath": "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.Core\\Shop.Core.csproj"
+              },
+              "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.DataLayer\\Shop.DataLayer.csproj": {
+                "projectPath": "F:\\دانشگاه\\پروژه\\پروژه اصلی\\Shop.DataLayer\\Shop.DataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "ZarinPalSandbox": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

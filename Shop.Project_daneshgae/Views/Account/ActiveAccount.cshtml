@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "فعالسازی";
+}
+
+@section menu{
+            <section class="hero hero-normal">
+
+}
+
+<div class="container">
+    @if (ViewBag.IsActive)
+    {
+        <div class="alert alert-success text-center">
+            <p>حساب کاربری شما با موفقیت فعال شد</p>
+            <p>
+                <a href="/Login">ورود به سایت</a>
+            </p>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger text-center">
+            <p>حساب کاربری با مشخصات ارسال شده یافت نشد</p>
+        </div>
+    }
+</div>

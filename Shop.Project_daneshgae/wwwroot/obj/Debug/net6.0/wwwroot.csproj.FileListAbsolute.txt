@@ -1,0 +1,15 @@
+C:\Users\reza\Desktop\My_Web\wwwroot\obj\Debug\net6.0\wwwroot.csproj.AssemblyReference.cache
+C:\Users\reza\Desktop\My_Web\wwwroot\obj\Debug\net6.0\wwwroot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\reza\Desktop\My_Web\wwwroot\obj\Debug\net6.0\wwwroot.AssemblyInfoInputs.cache
+C:\Users\reza\Desktop\My_Web\wwwroot\obj\Debug\net6.0\wwwroot.AssemblyInfo.cs
+C:\Users\reza\Desktop\My_Web\wwwroot\obj\Debug\net6.0\wwwroot.csproj.CoreCompileInputs.cache
+C:\Users\reza\Desktop\My_Web\wwwroot\bin\Debug\net6.0\wwwroot.exe
+C:\Users\reza\Desktop\My_Web\wwwroot\bin\Debug\net6.0\wwwroot.deps.json
+C:\Users\reza\Desktop\My_Web\wwwroot\bin\Debug\net6.0\wwwroot.runtimeconfig.json
+C:\Users\reza\Desktop\My_Web\wwwroot\bin\Debug\net6.0\wwwroot.dll
+C:\Users\reza\Desktop\My_Web\wwwroot\bin\Debug\net6.0\ref\wwwroot.dll
+C:\Users\reza\Desktop\My_Web\wwwroot\bin\Debug\net6.0\wwwroot.pdb
+C:\Users\reza\Desktop\My_Web\wwwroot\obj\Debug\net6.0\wwwroot.dll
+C:\Users\reza\Desktop\My_Web\wwwroot\obj\Debug\net6.0\ref\wwwroot.dll
+C:\Users\reza\Desktop\My_Web\wwwroot\obj\Debug\net6.0\wwwroot.pdb
+C:\Users\reza\Desktop\My_Web\wwwroot\obj\Debug\net6.0\wwwroot.genruntimeconfig.cache

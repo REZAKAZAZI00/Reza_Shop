@@ -1,0 +1,33 @@
+﻿@page "{id}"
+@model Shop.Project_daneshgae.Pages.Admin.Product.DeleteProductModel
+@{
+    ViewData["Title"] = "حذف محصول";
+}
+<div class="col-md-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            حذف کاربر
+        </div>
+        <div class="panel-body">
+            <form method="post">
+                <input type="hidden" name="UserId" value="@ViewData["UserId"]"/>
+                
+                <dl class="dl-horizontal">
+                    <dt> عنوان : </dt>
+                    <dd>@Model.Product.ProductTitle</dd>
+                    <dt>شرح : </dt>
+                    <dd>@Model.Product.DesCription</dd>
+                   
+                    <dt>تاریخ عضویت : </dt>
+                    <dd>@Model.Product.RegisterDate.ToShamsi()</dd>
+                    <dt></dt>
+                    <dd>
+                        <input type="submit" value="حذف" class="btn btn-danger"/>
+                    </dd>
+                </dl>
+            </form>
+        </div>
+        <!-- /.panel-body -->
+    </div>
+    <!-- /.panel -->
+</div>

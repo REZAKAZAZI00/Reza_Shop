@@ -1,0 +1,74 @@
+﻿@model ChargeWalletViewModel
+@{
+    ViewData["Title"] = " کیف پول ";
+}
+
+@section menu{
+            <section class="hero hero-normal">
+}
+
+<main>
+    <div class="container">
+        <div class="user-account">
+            <div class="row">
+                <partial name="_SlideBar" />
+                <div class="col-md-9 col-sm-8 col-xs-12">
+                    <section class="user-account-content">
+                        <header><h1> کیف پول شما </h1></header>
+                        <div class="inner form-layer">
+                            <form asp-action="Wallet" method="post">
+                                <div class="row">
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="username"><i class="zmdi zmdi-balance-wallet"></i></span>
+                                            <input type="number" class="form-control" placeholder="مبلغ به تومان" asp-for=Amount >
+                                        </div>
+                                    </div>
+                              
+                                    <div class="text-danger" asp-validation-summary="All"></div>
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <button class="btn btn-success"> شارژ کیف پول </button>
+                                    </div>
+                                </div>
+                            </form>
+                            <hr/>
+                            @{
+                                List<WalletViewModel> list = ViewBag.ListWallet as List<WalletViewModel>;
+                            }
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th>مبلغ</th>
+                                    <th>تاریخ</th>
+                                    <th>نوع تراکنش</th>
+                                    <th>شرح</th>
+                                </tr>
+                                @foreach (var item in list.OrderByDescending(w=>w.CreateDate))
+                                {
+                                    <tr>
+                                        <td>@item.Amount.ToString("#,0 ریال")</td>
+                                        <td>
+                                            @item.CreateDate.ToShamsi()
+                                        </td>
+                                        <td>
+                                            @if (item.Type == 1)
+                                            {
+                                                <p class="text-success">واریز به حساب</p>
+                                            }
+                                            else
+                                            {
+                                                <p class="text-danger">برداشت از حساب</p>
+                                            }
+                                        </td>
+                                        <td>
+                                            @item.Description
+                                        </td>
+                                    </tr>
+                                }
+                            </table>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

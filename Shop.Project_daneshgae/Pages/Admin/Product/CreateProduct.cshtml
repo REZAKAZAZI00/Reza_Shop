@@ -1,0 +1,127 @@
+﻿@page
+@model Shop.Project_daneshgae.Pages.Admin.Product.CreateProductModel
+
+@{
+    ViewData["Title"] = "افزودن محصول جدید";
+}
+
+<div class="row">
+    <form method="post" enctype="multipart/form-data">
+        <div class="col-md-8">
+            <h2>اطلاعات محصول</h2>
+            <hr />
+            <div class="form-group">
+                <label>عنوان محصول</label>
+                <input type="text"  asp-for="CreateProductViewModel.ProductTitle" class="form-control">
+                <span asp-validation-for="CreateProductViewModel.ProductTitle"></span>
+            </div>
+            <div class="form-group">
+                <label>گروه اصلی</label>
+                <select class="form-control" asp-for="CreateProductViewModel.GroupId" asp-items="@(ViewData["Groups"] as SelectList)"></select>
+                <span asp-validation-for="CreateProductViewModel.GroupId"></span>
+            </div>
+            <div class="form-group">
+                <label>گروه فرعی</label>
+                <select class="form-control" asp-for="CreateProductViewModel.SubGroup" asp-items="@(ViewData["SubGroups"] as SelectList)"></select>
+                <span asp-validation-for="CreateProductViewModel.SubGroup"></span>
+            </div>
+            <div class="form-group">
+                <label>فروشنده محصول</label>
+                <select class="form-control" asp-for="CreateProductViewModel.ProductSellerId" asp-items="@(ViewData["ProductSeller"] as SelectList)"></select>
+                <span asp-validation-for="CreateProductViewModel.ProductSellerId"></span>
+            </div>
+            <div class="form-group">
+                <label>شرح محصول</label>
+                <textarea class="form-control" asp-for="CreateProductViewModel.DesCription" rows="10"></textarea>
+                <span asp-validation-for="CreateProductViewModel.DesCription"></span>
+            </div>
+             <div class="form-group">
+                <label>اطلاعات محصول</label>
+                <textarea class="form-control" asp-for="CreateProductViewModel.Information" rows="10"></textarea>
+                <span asp-validation-for="CreateProductViewModel.Information"></span>
+            </div>
+            <div class="form-group">
+                <label>قیمت محصول</label>
+                <input type="number" asp-for="CreateProductViewModel.Price" value="0" class="form-control" />
+                <span asp-validation-for="CreateProductViewModel.Price"></span>
+            </div>
+            
+            <div class="form-group">
+                <label>قیمت تخفیف محصول</label>
+                <input type="number" asp-for="CreateProductViewModel.DisCountPrice" value="0" class="form-control" />
+                <label>اگر تخفیف در نطر  ندارد 0 بگزارید</label>
+
+                <span asp-validation-for="CreateProductViewModel.DisCountPrice"></span>
+            </div>
+            <div class="form-group">
+                <label>وزن محصول</label>
+                <input type="text" asp-for="CreateProductViewModel.Weight" placeholder="قیمت کالا" class="form-control" />
+                <span asp-validation-for="CreateProductViewModel.Weight"></span>
+            </div>
+            <div class="form-group">
+                <label>موجودی محصول</label>
+                <input type="text" asp-for="CreateProductViewModel.stock" value="0" class="form-control" />
+                <span asp-validation-for="CreateProductViewModel.stock"></span>
+            </div>
+            <div class="form-group">
+                <label>کلمات کلیدی دوره</label>
+                <input type="text" asp-for="CreateProductViewModel.Tags" class="form-control">
+                <p class="help-block">کلمات را با - جدا کنید</p>
+                <span asp-validation-for="CreateProductViewModel.Tags"></span>
+            </div>
+            <input type="submit" value="ذخیره اطلاعات" class="btn btn-success" />
+        </div>
+        <div class="col-md-4">
+            <p></p>
+            <img id="imgproduct" class="thumbnail"   src="/UserAvatar/Defult.jpg"/>
+            <div class="form-group">
+
+                <label>انتخاب تصویر</label>
+                <input type="file"  asp-for="CreateProductViewModel.Images" id="imgProductUp" multiple accept=".jpg, .jpeg, .png">
+            </div>
+            
+            <div class="form-group">
+                <label>وضعیت محصول</label>
+                <select class="form-control" asp-for="CreateProductViewModel.ProductStatusId" asp-items="@(ViewData["ProductStatusId"] as SelectList)"></select>
+                <span asp-validation-for="CreateProductViewModel.ProductStatusId"></span>
+            </div>
+        </div>
+    </form>
+</div>
+@section Scripts
+{
+    <script>
+        $("#product_GroupId").change(function() {
+            $("#product_SubGroup").empty();
+            $.getJSON("/home/GetSubGroups/" + $("#product_GroupId :selected").val(),
+                function(data) {
+
+                    $.each(data,
+                        function() {
+                            $("#product_SubGroup").append('<option value=' + this.value + '>' + this.text + '</option>');
+                            
+                        });
+
+                });
+
+
+        });
+
+        function readURL(input) {
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#imgproduct').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#CreateProductViewModel_Images").change(function () {
+            readURL(this);
+        });
+    </script>
+}

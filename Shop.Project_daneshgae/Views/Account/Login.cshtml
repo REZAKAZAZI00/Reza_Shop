@@ -1,0 +1,78 @@
+﻿@model Shop.Core.DTOs.LoginViewModel
+@{
+    ViewData["Title"] = "ورود";
+}
+@section menu{
+<section class="hero hero-normal">
+ }
+    <section class="ftco-section">
+        
+        <div class="row justify-content-center">
+            <div class="col-md-7 col-lg-5">
+                @if (ViewBag.IsSuccess != null)
+        {
+            <div class="alert alert-success">
+                <p class="help-block">ورود با موفقیت انجام شد</p>
+            </div>
+
+            <script>
+                // Your delay in milliseconds
+                var delay = 3000; 
+                setTimeout(function () { window.location = "https://localhost:44353/"; }, delay);
+            </script>
+        }@if (ViewBag.EditProfile==true)
+        {
+            <div class="alert alert-warning">
+بدلیل ویرایش پروفایل و بارگزاری مجدد اطلاعات لطفا مجدد لاگین کنید
+            </div>
+        }
+                <div class="login-wrap p-4 p-md-5">
+                    <div class="d-flex">
+                        <div class="w-100">
+                            <h3 class="mb-4">
+                                ورود به سایت
+                            </h3>
+                        </div>
+                        <div class="w-100">
+                            <p class="social-media d-flex justify-content-end">
+                                <a href="#" class="social-icon d-flex align-items-center justify-content-center"><i class="fa fa-telegram"></i></a>
+                                <a href="#" class="social-icon d-flex align-items-center justify-content-center"><i class="fa fa-instagram"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                   
+                    <form  class="login-form" asp-action="Login" method="post" >
+                         <span class="text-danger" asp-validation-for=Email></span>
+                        <div class="form-group">
+                            <div class="icon d-flex align-items-center justify-content-center"><i class="fa fa-user"></i></div>
+                            <input type="text" class="form-control rounded-left" placeholder="نام کاربری یا(ایمیل)" asp-for=Email>
+                        </div>
+                        <div class="form-group">
+                            <div class="icon d-flex align-items-center justify-content-center"><i class="fa fa-lock"></i></div>
+                            <input type="password" class="form-control rounded-left" placeholder="کلمه عبور" asp-for=Password>
+                        </div>
+                        <div class="form-group d-flex align-items-center">
+                            <div class="w-100">
+                                <label class="checkbox-wrap checkbox-primary mb-0">
+                                    مرابه خاطر بسپار
+                                    <input type="checkbox" asp-for=RememberMe>
+                                    <i class="checkmark"></i>
+                                </label>
+                            </div>
+                            <div class="w-100 d-flex justify-content-end">
+                                <button type="submit" class="btn btn-primary rounded submit">ورود</button>
+                            </div>
+                        </div>
+                        <div class="form-group mt-4">
+                            <div class="w-100 text-center">
+                                <p class="mb-1">اکانت نداری؟<a asp-action="Register">ثبت نام</a></p>
+                                <p><a  class="c_c" href="/ForgotPassWord">کلمه عبور فراموش کردی</a></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+</section>
+

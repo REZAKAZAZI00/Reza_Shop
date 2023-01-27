@@ -1,0 +1,36 @@
+﻿@using Shop.Core.DTOs;
+@using Shop.Core.Services.InterFace;
+@using Shop.Core.Convertors;
+@inject IUserServics _Userservics;      
+@{
+    SlideBserUserPanelViewModel user = _Userservics.GetSlideBarUserPanelData(User.Identity.Name);
+}
+<div class="col-md-3 col-sm-4 col-xs-12">
+                    <aside>
+
+                        <div class="avatar-layer">
+                            <div class="img-layer">
+                                <a href="" class="change-image"><i class="zmdi zmdi-edit"></i></a>
+                                <img src="/UserAvatar/@user.UserAvatar">
+                            </div>
+                            <div class="detail">
+                                <span> @user.UserName </span>
+                                <span> عضویت : @user.CreateDate.ToShamsi()/ </span>
+                            </div>
+                        </div>
+
+                        <section>
+                            <header><h3> میز کار </h3></header>
+                            <div class="inner">
+                                <ul style="list-style:none;">
+                                    <li><a href="/Profile"> مشاهده حساب کابری </a></li>
+                                    <li><a asp-action=editprofile> ویرایش حساب کابری </a></li>
+                                    <li><a asp-action=ChangePassWord> تغییر رمز عبور </a></li>
+                                        <li><a   asp-controller=Wallet> کیف پول شما  </a></li>
+                                    <li><a href=""> تنظیمات حساب کاربری </a></li>
+                                    <li><a href="/Logout"> خروج از حساب کاربری </a></li>
+                                </ul>
+                            </div>
+                        </section>
+                    </aside>
+                </div>
